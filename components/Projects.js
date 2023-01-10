@@ -1,40 +1,53 @@
 import React from "react";
 
 function Projects() {
-	return (
-		<>
-			<div className="grid grid-cols-2 items-center px-10 py-5">
-				<div className="font-extrabold text-3xl">Some Work!</div>
-				<div></div>
-			</div>
-			<div className="grid grid-cols-2 items-center px-10 py-5">
-				{/* Project card 1 */}
-				<div className="h-96 w-72 bg-blue-400 border rounded-xl mt-10">
-					Add project sample image here
-				</div>
-				{/* Project card 2 */}
-				<div className="h-96 w-72 bg-purple-800 border rounded-xl">
-					Add project sample image here
-				</div>
-			</div>
-			<div className="grid grid-cols-2 items-center px-10 py-5">
-				{/* Project card 1 */}
-				<div className="flex flex-col items-center justify-center">
-					<p>
-						Here is some of my work which I am proud of. Want to know more about
-						what I do on daily basis?
-					</p>
-					<button className="py-2 px-6 items-start justify-start bg-[#3B87CA]">
-						View More Projects
-					</button>
-				</div>
-				{/* Project card 3 */}
-				<div className="h-96 w-72 bg-slate-800 border rounded-xl">
-					Add project sample image here
-				</div>
-			</div>
-		</>
-	);
+  return (
+    <div className="flex flex-col  px-10 py-5">
+      {/* Heading */}
+      <div className="font-extrabold pb-2 lg:px-20 text-3xl">Projects</div>
+      {/* Projects */}
+      <div className="pb-4 lg:pb-10 lg:pt-6 flex flex-col gap-4 lg:flex-row items-center justify-center ">
+        <a
+          href="https://ranafida.medium.com/designing-a-tele-therapy-app-for-low-literate-users-a-ux-case-study-bab56703dcb0"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/tele.png"
+            className=" lg:h-[400px] lg:w-[600px] rounded-xl "
+          ></img>
+        </a>
+
+        <img
+          src="/cric2.png"
+          className=" lg:h-[400px] lg:w-[600px] rounded-xl"
+        ></img>
+
+        {/* <div className="h-[246px] w-[290px] border-2 border-rose-500 rounded-xl lg:h-[400px] lg:w-[600px]"></div>
+				<div className="h-[246px] w-[290px] border-2 border-rose-500 rounded-xl lg:h-[400px] lg:w-[600px] lg:col-start-2"></div> */}
+      </div>
+
+      <div className="pb-4 lg:pb-10 lg:pt-6  flex flex-col gap-4 lg:flex-row items-center justify-center">
+        <a
+          href="https://foundry.pk/connectr/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/connectr.png"
+            className=" lg:h-[400px] lg:w-[600px] rounded-xl "
+          ></img>
+        </a>
+        <img
+          src="/sproj.png"
+          className=" lg:h-[400px] lg:w-[600px] rounded-xl"
+        ></img>
+
+        {/* <div className="h-[246px] w-[290px] border-2 border-rose-500 rounded-xl lg:h-[400px] lg:w-[600px]"></div>
+				<div className="h-[246px] w-[290px] border-2 border-rose-500 rounded-xl lg:h-[400px] lg:w-[600px] lg:col-start-2"></div> */}
+      </div>
+    </div>
+  );
 }
 
 export default Projects;
