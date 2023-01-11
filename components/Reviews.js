@@ -53,21 +53,21 @@ function Reviews() {
             />
           </svg>
           <p className="text-md ml-3 mt-1 text-white">
+            <span className="opacity-50">Great work as always! Fida is </span>
+            <strong className="font-semibold text-[color:white] opacity-100">
+              highly proficient at Figma
+            </strong>{" "}
             <span className="opacity-50">
-              Fida is a special talent. We initially hired Fida in a part-time
-              role while he was in his last semester at university and
-            </span>{" "}
-            <strong className="font-semibold text-[color:white]">
-              {" "}
-              immediately saw a palpable impact on our product
-            </strong>
+              and worked with me to quickly sketch out the screens I needed. A
+              pleasure to work with.{" "}
+            </span>
           </p>
           <div className="mt-6">
             <h4 className="font-bold text-sm ml-3 mt-2 text-white">
-              Philip Levine
+              Sean Basinski
             </h4>
             <p className="font-light text-sm ml-3 opacity-40">
-              Founder & CEO GullyCricket
+              Founder Kiki NYC
             </p>
           </div>
         </div>

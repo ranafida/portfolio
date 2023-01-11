@@ -44,14 +44,13 @@ function Hero() {
           </div>
         </div>
         <div className="font-poppins text-2xl lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-white to-transparent">
-          Expert in <span className="font-poppinsbold">UX design</span>,
+          Expert in <span className="font-poppinsbold">UX Design</span>,
           <span className="font-poppinsbold"> Product Strategy</span>, &
           <span className="font-poppinsbold"> Prototyping </span>
-          with a global perspective
         </div>
         <div className="mt-6 w-fit rounded-sm bg-gradient-to-r from-[#0091FF] to-white p-[0.5px]">
           <div className=" bg-background hover:bg-gradient-to-r from-[#0091FF] to-white">
-            <button className="px-12 py-1 text-base text-transparent bg-clip-text bg-gradient-to-r from-[#0091FF] to-white font-poppins hover:text-background hover:font-poppins-bold ">
+            <button className="px-12 py-1 text-base text-transparent bg-clip-text bg-gradient-to-r from- to-white font-poppins hover:text-background hover:font-poppins-bold ">
               <a
                 href="https://drive.google.com/file/d/16dcm-1Evq5zRsTWHFQc6D_94AMIUMgwf/view?usp=sharing"
                 target="_blank"
@@ -63,10 +62,10 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="pl-10 col-span-1">
+      <div className=" ">
         <img
-          className="hidden lg:block object-cover lg:w-[421px] h-[564px]"
-          src="/fida.png"
+          className="hidden lg:grayscale hover:grayscale-0 hover:-translate-y-1 hover:scale-90 hover:rotate-3  lg:block object-cover lg:w-[400px] h-[430px]"
+          src="/fida5.png"
         ></img>
       </div>
     </div>
