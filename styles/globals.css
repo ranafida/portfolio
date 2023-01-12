@@ -10,3 +10,8 @@
 	font-family: "poppinsbold";
 	src: url("../public/Poppins/Poppins-Medium.ttf");
 }
+
+@font-face {
+	font-family: "poppinsreg";
+	src: url("../public/Poppins/Poppins-BlackItalic.ttf");
+}

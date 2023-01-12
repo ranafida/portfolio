@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 const links = [
-  // { name: "Projects" },
-  { name: "About" },
+  { name: "Projects", link: "/" },
+  { name: "About", link: "/About" },
   // { name: "Contact" },
-  // { name: "Resume" },
+  // { name: "Resume", link: "www.google.com" },
 ];
 
 function Nav() {
@@ -33,10 +33,19 @@ function Nav() {
               key={key}
               className="px-6 cursor-pointer font-sans font-semibold"
             >
-              <Link href={"/" + item.name}>{item.name}</Link>
+              <Link href={item.link}>{item.name}</Link>
             </div>
           );
         })}
+        <div className="px-6 cursor-pointer font-sans font-semibold">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://drive.google.com/file/d/1KxkhgIAmLBVsVmnZ3XyUB9ujuhNfkq_c/view?usp=sharing"
+          >
+            Resume
+          </a>
+        </div>
       </div>
     </div>
   );

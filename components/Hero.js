@@ -52,7 +52,7 @@ function Hero() {
           <div className=" bg-background hover:bg-gradient-to-r from-[#0091FF] to-white">
             <button className="px-12 py-1 text-base text-transparent bg-clip-text bg-gradient-to-r from- to-white font-poppins hover:text-background hover:font-poppins-bold ">
               <a
-                href="https://drive.google.com/file/d/16dcm-1Evq5zRsTWHFQc6D_94AMIUMgwf/view?usp=sharing"
+                href="https://drive.google.com/file/d/1KxkhgIAmLBVsVmnZ3XyUB9ujuhNfkq_c/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >

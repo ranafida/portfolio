@@ -8,7 +8,7 @@ function Who() {
       </div>
       {/* Text & image */}
       <div className="flex flex-col lg:flex-row lg:items-center lg:gap-12 lg:justify-between">
-        <div className="py-4 break-keep font-poppins text-white text-xl basis-2/5">
+        <div className="py-4 break-keep text-white text-xl basis-2/5 font-poppins">
           <p className="pb-5 leading-normal">
             As a User Experience Designer at Gully Cricket, a fantasy sports
             app, I am committed to crafting inclusive and accessible designs
@@ -30,7 +30,7 @@ function Who() {
           </p>
         </div>
         <img
-          className=" lg:h-[522px] lg:w-[652px] object-contain"
+          className="order-first lg:order-last lg:h-[522px] lg:w-[652px] object-contain"
           src="/collage.png"
         ></img>
       </div>
