@@ -5,7 +5,7 @@ function Footer() {
     <footer className="mt-10 pb-20 p-4 bg-[#001021] sm:p-6 dark:bg-[#001021]">
       <div className="flex gap-2 items-center justify-center font-poppins text-2xl">
         <img className="h-8 w-8" src="/mail.svg"></img>
-        fida@cricduel.com
+        22100166@lums.edu.pk
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">

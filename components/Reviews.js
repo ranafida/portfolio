@@ -87,20 +87,24 @@ function Reviews() {
           </svg>
           <p className="text-md ml-3 mt-1 text-white">
             <span className="opacity-50">
-              Fida is a special talent. We initially hired Fida in a part-time
-              role while he was in his last semester at university and
-            </span>{" "}
+              {" "}
+              Fida is a bombshell of creativity,
+            </span>
             <strong className="font-semibold text-[color:white]">
               {" "}
-              immediately saw a palpable impact on our product
-            </strong>
+              he is full of fresh ideas and has a keen eye for user experience.
+            </strong>{" "}
+            <span className="opacity-50">
+              He brings a lot of value to the product. He is truly an artist
+              with a great perspective.
+            </span>
           </p>
           <div className="mt-6">
             <h4 className="font-bold text-sm ml-3 mt-2 text-white">
-              Philip Levine
+              Aastha Gupta
             </h4>
             <p className="font-light text-sm ml-3 opacity-40">
-              Founder & CEO GullyCricket
+              VP Product | GullyCricket
             </p>
           </div>
         </div>

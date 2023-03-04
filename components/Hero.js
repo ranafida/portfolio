@@ -6,8 +6,8 @@ function Hero() {
       <div className="lg:pl-20 col-span-3 lg:col-span-2">
         <div className="font-poppins text-2xl pb-3 flex flex-col">
           <div>
-            I'm{" "}
-            <span className="font-poppinsbold text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-gray-900">
+            Hi, I'm{" "}
+            <span className="font-poppinsbold text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white">
               fida hussain
             </span>
           </div>
@@ -44,9 +44,12 @@ function Hero() {
           </div>
         </div>
         <div className="font-poppins text-2xl lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-white to-transparent">
-          Expert in <span className="font-poppinsbold">UX Design</span>,
-          <span className="font-poppinsbold"> Product Strategy</span>, &
-          <span className="font-poppinsbold"> Prototyping </span>
+          <p>A product Designer focused on</p>
+          <span className="font-poppinsbold">
+            {" "}
+            UX Research & Inclusive Design{" "}
+          </span>
+          {/* <span className="font-poppinsbold"> Prototyping </span> */}
         </div>
         <div className="mt-6 w-fit rounded-sm bg-gradient-to-r from-[#0091FF] to-white p-[0.5px]">
           <div className=" bg-background hover:bg-gradient-to-r from-[#0091FF] to-white">

@@ -19,12 +19,12 @@ function Projects() {
         </a>
 
         <a
-          href="https://gullycricket.us/"
+          href="https://www.behance.net/gallery/165221177/Designing-for-the-Fantasy-Cricket-Fans-GullyCricket-UX"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src="/cric2.png"
+            src="/cric3.png"
             className=" lg:h-[400px] lg:w-[600px] rounded-xl"
           ></img>
         </a>
@@ -34,7 +34,7 @@ function Projects() {
 
       <div className="pb-4 lg:pb-10 lg:pt-6  flex flex-col gap-4 lg:flex-row items-center justify-center">
         <a
-          href="https://foundry.pk/connectr/"
+          href="https://www.behance.net/gallery/111579931/ConnectR-A-platform-for-research-community-in-Pakistan"
           target="_blank"
           rel="noopener noreferrer"
         >
